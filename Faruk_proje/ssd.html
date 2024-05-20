@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ssd</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="body">
+    <a id="ust"></a>
+    <a href="#ust">
+      <img id="ok" src="image/ok.png" />
+    </a>
+
+    <header id="header">
+      <a href="index.html">
+        <img id="logo" src="image/Fawo.png" alt="Fawo" />
+      </a>
+
+      <h2 id="baslik"><i>SSD</i></h2>
+      <div class="dropdown">
+        <img id="menu" src="image/uc_cizgi.png" />
+        <div class="dropdown-content">
+          <a href="index.html">Anasayfa</a>
+          <a href="islemci.html">İşlemci</a>
+          <a href="ram.html">Ram</a>
+          <a href="ssd.html">SSD</a>
+          <a href="harddisk.html">Harddisk</a>
+          <a href="hava_sogutucu.html">Hava Soğutucu</a>
+          <a href="Sıvı_sogutucu.html">Sıvı Soğutucu</a>
+          <a href="guckaynagi.html">Guc Kaynağı</a>
+          <a href="anakart.html">Anakart</a>
+          <a href="ekrankarti.html">Ekran Kartı</a>
+        </div>
+      </div>
+      <div
+        style="float: right; margin-top: 17px; margin-right: 20px"
+        class="container"
+      >
+        <label class="toggle_label">
+          <input
+            type="checkbox"
+            checked
+            id="mode"
+            class="toggle"
+            onclick="Tema()"
+            onchange="geceModuKontrol()"
+          />
+          <span class="slider round">
+            <i class="fa-solid fa-moon fa-lg fa-spin moon"></i>
+            <i class="fa-solid fa-sun fa-spin fa-lg sun"></i>
+          </span>
+        </label>
+      </div>
+    </header>
+    <section>
+      <center>
+        <div id="anadiv">
+          <h2><strong>SSD</strong></h2>
+          <img
+            id="img"
+            style="top: 150px; left: 23%"
+            src="image/ssd_s1.jpg"
+            alt=""
+          />
+          <p style="text-align: left">
+            Eskiden Yeni Nesil Form Faktörü <strong>(NGFF)</strong> olarak bilinen M2, dahili
+            olarak monte edilmiş bilgisayar genişletme kartları ve ilgili
+            konektörler için bir özelliktir. M2, <strong>PCI Express Mini Card fiziksel</strong>
+            kart düzenini ve konektörlerini kullanan mSATA standardının yerine
+            geçer. Daha esnek bir fiziksel özellik kullanan M2, farklı modül
+            genişliklerine ve uzunluklarına izin verir ve daha gelişmiş arabirim
+            özelliklerinin kullanılabilirliği ile eşleştiğinde, M2'yi genel
+            olarak katı hal depolama uygulamaları ve özellikle daha küçük
+            cihazlarda mSATA'dan daha uygun hale getirir
+          </p>
+          <br /><br />
+          <img
+            id="img"
+            style="top: 150px; left: 23%"
+            src="image/ssd_s2.jpg"
+            alt=""
+          />
+          <p style="text-align: left">
+            M2 konektörü aracılığıyla sağlanan bilgisayar veri yolu arabirimleri
+            <strong>PCI Express 3.0</strong> (dört şeride kadar), <strong>Seri ATA 3.0 ve USB 3.0'dır</strong>
+            <strong>(son ikisi için tek bir mantıksal bağlantı noktası)</strong>. İstenen ana
+            makine desteği seviyesine ve cihaz tipine bağlı olarak, hangi
+            arayüzlerin destekleneceğini seçmek M2 ana bilgisayarının veya
+            modülünün üreticisine bağlıdır. M2 konektör anahtarlama çentikleri,
+            hem M2 ana bilgisayarlarının hem de cihazların çeşitli amaçlarını ve
+            yeteneklerini gösterir. M2 modüllerinin benzersiz anahtar
+            çentikleri, uyumsuz ana bilgisayar konektörlerine takılmalarını da
+            önler.M2 belirtimi, mantıksal arabirim düzeyinde eski Gelişmiş Ana
+            Bilgisayar Denetleyici Arabirimi'ni <strong>(AHCI)</strong> desteklemenin yanı sıra
+            M2 PCI Express SSD'ler için mantıksal aygıt arabirimi olarak NVM
+            Express'i <strong>(NVMe)</strong> destekler. AHCI desteği, eski SATA aygıtları ve
+            eski işletim sistemleri ile yazılım düzeyinde geriye dönük uyumluluk
+            sağlarken, NVM Express, birçok I/O işlemini paralel olarak
+            gerçekleştirmek için yüksek hızlı PCI Express depolama aygıtlarının
+            kapasitesini tam olarak kullanmak üzere tasarlanmıştır.
+          </p>
+          <br /><br />
+          <h2><strong>Sata SSD</strong></h2>
+          <img
+            id="img"
+            style="top: 150px; left: 23%"
+            src="image/ssd_s3.jpg"
+            alt=""
+          />
+          <p style="text-align: left">
+            <strong>SATA SSD tıpki hard disk gibi olan ancak hard diskten iki üç kat
+              daha hızlı olan bir depolama birimidir.</strong> İki buçuk, üç buçuk inç
+            civarında olabilir ve saniyede 500 MB kadar okuma yazma hızı
+            bulunmaktadır. Bu nedenle hard diskten epeyce bir hallice daha
+            yüksek okuma ve yazma hızına sahip
+          </p>
+          <br /><br /><br />
+          <h2><strong>SSD Tarihçesi</strong></h2>
+          <p style="text-align: center">
+            Uzun süreli veri depolama alanında <strong>flash bellek kullanılması
+              1950’lere kadar uzanmaktadır.</strong> Ancak, uçucu ya da geçici belleklerin
+            kullanıldığı bu çözümler genellikle ana bilgisayarlarda ya da büyük
+            boyutlu mini bilgisayar sistemlerinde kullanılmaktaydılar ve sistem
+            kapandığında, yani sistemden güç alamadıklarında içerisindeki
+            verilerin korunması için yedek pil desteği kullanılması gerekiyordu.
+            Günümüzde kullanılanlara benzeyen SSD sürücüler 1990’ların başında
+            ilk kez pazara sunuldular. 1991 yılında 20 MB kapasiteli bir SSD
+            1.000 dolara satılmaktaydı. O dönemden günümüze flash bellek
+            fiyatları giderek düşmüştür. Gelişen farklı PC veriyolu arayüzleri
+            ile çok yüksek hızda veri aktarım yapılabilir hale gelmesi,
+            geleneksel sabit disk sürücülerin sunduğu performansın çok daha
+            üstünde performansa sahip SSD sürücülerin geliştirilmesini
+            sağlamıştır.
+          </p>
+        </div>
+      </center>
+    </section>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br />
+    <footer id="footer">
+      <a href="https://www.instagram.com/fawobi/">
+        <img
+              style="left: 1%;
+              width: 30px;
+              height:30px;
+              border-radius: 8px;
+              position: absolute;
+              bottom: 4%;"
+              src="image/instagram_icon.png"
+              alt="">
+            </a>
+            <a href="05539644740">
+              <img
+                    style="left: 4%;
+                    width: 30px;
+                    height:30px;
+                    border-radius: 8px;
+                    position: absolute;
+                    bottom: 4%;"
+                    src="image/tel_icon.png"
+                    alt="">
+                  </a>
+      <center>
+        <p>Telif haklari:<strong>Tüm haklari saklıdır</strong></p>
+      </center>
+    </footer>
+    <script>
+      window.onload = Tema();
+      window.addEventListener("load", sayfaYuklendi);
+    </script>
+  </body>
+</html>

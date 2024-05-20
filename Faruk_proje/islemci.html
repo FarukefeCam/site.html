@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>islemci</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="body">
+    <a id="ust"></a>
+    <a href="#ust">
+      <img id="ok" src="image/ok.png" />
+    </a>
+    <header id="header">
+      <a href="index.html">
+        <img id="logo" src="image/Fawo.png" alt="Fawo" />
+      </a>
+
+      <h2 id="baslik"><i>İşlemci</i></h2>
+      <div class="dropdown">
+        <img id="menu" src="image/uc_cizgi.png" />
+        <div class="dropdown-content">
+          <a href="index.html">Anasayfa</a>
+          <a href="islemci.html">İşlemci</a>
+          <a href="ram.html">Ram</a>
+          <a href="ssd.html">SSD</a>
+          <a href="harddisk.html">Harddisk</a>
+          <a href="hava_sogutucu.html">Hava Soğutucu</a>
+          <a href="Sıvı_sogutucu.html">Sıvı Soğutucu</a>
+          <a href="guckaynagi.html">Guc Kaynağı</a>
+          <a href="anakart.html">Anakart</a>
+          <a href="ekrankarti.html">Ekran Kartı</a>
+        </div>
+      </div>
+      <div
+        style="float: right; margin-top: 17px; margin-right: 20px"
+        class="container"
+      >
+        <label class="toggle_label">
+          <input
+            type="checkbox"
+            checked
+            id="mode"
+            class="toggle"
+            onclick="Tema()"
+            onchange="geceModuKontrol()"
+          />
+          <span class="slider round">
+            <i class="fa-solid fa-moon fa-lg fa-spin moon"></i>
+            <i class="fa-solid fa-sun fa-spin fa-lg sun"></i>
+          </span>
+        </label>
+      </div>
+    </header>
+    <section>
+      <center>
+        <div id="anadiv">
+          <h2><strong>Merkezî işlem birimi</strong></h2>
+          <img
+            id="img"
+            style="top: 150px; left: 23%"
+            src="image/index_islemci.png"
+            alt=""
+          />
+          <p style="text-align: left">
+           <strong> Merkezî işlem birimi aritmetik ve mantıksal işlem yapma yeteneğine
+            sahiptir.</strong> Giriş ve çıkış birimleri arasında verilen yazılım ile
+            uygun çalışmayı sağlar. MİB, makine dili denilen düşük seviyeli
+            kodlama sistemi ile çalışır; bu kodlama sistemi bilgisayarın
+            algılayabileceği işlem kodlarından oluşur. Bir mikroişlemcinin
+            algılayabileceği kodların tamamına o işlemcinin komut kümesi denir.
+            Merkezî işlem birimi aritmetik ve mantıksal işlemleri Aritmetik
+            Mantık Birimi (AMB) aracılığıyla yapar. Bunun dışında virgüllü
+            sayılarla daha rahat hesap yapabilmesi için bir Kayan Nokta işlem
+            birimi (FPU) vardır. Mikroişlemcinin içerisinde bulunan küçük veri
+            saklama alanlarına yazmaç denir.
+          </p>
+          <br /><br />
+          <h2><strong></strong></h2>
+          <img
+            id="img"
+            style="top: 150px; left: 23%"
+            src="image/islemci_s1.jpg"
+            alt=""
+          />
+          <p style="text-align: left">
+            İlk Merkezî İşlem Birim'leri <strong>(MİB)</strong> daha büyük,bazen türünün tek
+            örneği bilgisayarlar için özel olarak tasarlanmışlardı. Ancak
+            belirli bir uygulama için özel MİB tasarımının masraflı olması bir
+            veya birçok amaç için yapılan kitlesel olarak üretilmiş işlemcilerin
+            gelişmesine yol açtı. Bu standartlaşma eğilimi ayrık transistörlü
+            ana sistemler ve mini bilgisayarlar döneminde başladı ve entegre
+            devrelerin <strong>(ED)</strong> popülerleşmesiyle giderek hız kazandı. ED, giderek
+            daha karmaşık ve nanometre ile ölçülebilecek MİB'lerin
+            tasarlanmasına ve üretilmesine olanak verdi. MİB'lerin küçülmesi ve
+            standartlaşması, modern hayatta dijital cihazların varlığını ilk
+            bilgisayar örneklerinin sınırlı uygulamalarının çok ötesinde
+            arttırdı.
+          </p>
+          <br /><br />
+          <h2><strong>Mikro işlemci</strong></h2>
+          <img
+            id="img"
+            style="top: 150px; left: 23%"
+            src="image/islemci_s3.jpg"
+            alt=""
+          />
+          
+          <p>
+            Mikroişlemcilerin 1970'lerde ortaya çıkması, MİB tasarımlarını ve
+            kullanımını oldukça etkiledi. İlk mikroişlemci olan Intel 4004'ün
+            çıkması (1970) ve yine ilk geniş çaplı kullanım sağlayan
+            mikroişlemci olan <strong>Intel 8080 (1974)</strong> ile bu tip MİB'ler, merkez işlem
+            birimini yürütme metotlarını tamamıyla ele geçirmiş oldu. O zamanki
+            tüm üreticiler, bilgisayar mimarilerini geliştirebilmek için
+            tümleşik devre geliştirme programları yayınladılar. Bunun sonucunda
+            da eski yazılım ve donanımlarıyla geri-uyumlu olan komut set uyumlu
+            mikroişlemciler ürettiler. Günümüzün kişisel bilgisayarlarının
+            başarısıyla birleşince de MİB kelimesi genel olarak mikroişlemciler
+            için de kullanılmaya başlandı. Önceki nesil MİB’ler ayrık
+            parçalardan ve pek çok küçük tümleşik devrelerin bir veya birden çok
+            devre kartlarında bulunmasıyla gerçekleştiriliyordu. Mikroişlemciler
+            ise, MİB’lerin çok az sayıda (genellikle bir) tümleşik devre
+            üzerinde üretiminden oluşuyordu. MİB’lerin tek kalıp üzerinde
+            üretilmesinin getirdiği bu boyut açısından bu küçülme, parasitik
+            sığalık geçitlerinin azalması gibi fiziksel faktörler sebebiyle daha
+            hızlı geçiş sürelerinin olmasına olanak sağladı. Bu sayede de
+            senkron mikroişlemcilerin 10 MHz civarlarında olan saat hızları GHz
+            seviyelerine taşındı. Ayrıca, olabildiğince ufak transistörlerin
+            tümleşik devrelere yerleştirilmedeki artış, tek bir MİB’de sahip
+            olunan transistör sayısını ve karmaşıklığı da artırdı. Bu geniş
+            gözlem, <strong>Moore Kuralı</strong> ile tanımlanmıştır ve bu
+            kuralın MİB'deki kompleks yapının zamana bağlı olarak artışının
+            oldukça keskin bir tahminini yapabildiği ispatlanmıştır. Her ne
+            kadar MİB’in karmaşıklığı, ebatları, tasarımı ve genel şekli
+            fazlasıyla değişmiş olsa da temel yapısının ve fonksiyonunun
+            değişmediği görülmektedir. Günümüzde yaklaşık her MİB von Neumann
+            kayıtlı-program makineleri olarak adlandırılabilir.
+            <strong>Moore Kuralı</strong> geçerli olmaya devam ettiğinden,
+            tümleşik devre transistör teknolojilerinin sahip olabileceği
+            limitleri hakkında endişeler ortaya çıkmaya başladı. Olabildiğince
+            minyatürleme sonucu ortaya çıkabilecek elektron göçü ve eşikaltı
+            voltajı durumları önemsenecek boyutlara gelmeye başladı. Bu tip
+            endişeler, araştırmacıları yeni metotlar aramaya (quantum
+            bilgisayarı, paralelliğin kullanımının gelişimi) yöneltti.
+          </p>
+          <br /><br /><br /><br />
+          <h2><strong>İşlemci Tarihçesi</strong></h2>
+          <p style="text-align: left">
+           <strong> İlk işlemciler</strong>, belli işlemler için özel üretilen ve büyük olan
+            parçalardı. Daha sonraları ise maliyeti çok yüksek olan bu üretim
+            şeklinin yerini, gelişen teknoloji ile daha ufak olan ve tek işlev
+            yerine çok işleve sahip olan üretimler almıştır. Bu dönemin
+            başlaması, transistörlerin ve mini-bilgisayarların ortaya çıkışına
+            dayanmaktadır. tümleşik devrelerin yayılmasıyla da hız kazanmıştır.
+            Tümleşik devreler, işlemcilerin daha kompleks olarak tasarlanmasına
+            ve bunların çok az yer kaplayacak şekilde (milimetreler cinsinden)
+            üretilmesine olanak sağlamıştır. Bu sayede işlemciler modern hayatta
+            birçok yerde kullanılmaya başlanmıştır (otomobiller, cep
+            telefonları...). Günümüz işlemcilerine benzerliklerin başlamasından
+            önce, ENIAC ve benzeri bilgisayarların belli işleri
+            gerçekleştirebilmesi için bağlantılarının fiziksel olarak
+            değiştirilmesi gerekiyordu. MİB kelimesi genel olarak yazılım
+            (bilgisayar programı) uygulama aracı olarak tanımlandığından, gerçek
+            anlamda MİB'lerin oluşumu kayıtlı-program bilgisayarların gelişimi
+            ile ortaya çıkmıştır. Kayıtlı-program bilgisayar fikri ENIAC
+            tasarımı esnasında mevcut olmasına rağmen, bu fikir makinenin erken
+            bitirilebilmesi için rafa kaldırılmıştı. 30 Haziran 1945’te, ENIAC
+            henüz tamamlanmadan, matematikçi John von Neumann, EDVAC proje
+            raporunun ilk taslağını yayımladı. Bu taslakta kayıtlı-program
+            bilgisayarının ancak <strong>Ağustos 1949</strong>’da tamamlanabileceği
+            gösteriliyordu. EDVAC, belli sayıda operasyonları gerçekleştirecek
+            şekilde tasarlanmıştı. EDVAC için yazılan programlar, kabloların
+            fiziksel olarak değiştirilmeyi gerektiren bir ortamda değil, hızlı
+            bir bilgisayar belleğinde kayıtlı tutuluyordu. Bu özelliğiyle de
+            ENIAC’ın kısıtlamalarının üstesinden gelip, zamandan ve zahmet
+            açısından tasarruf sağlıyordu. Her ne kadar von Neumann
+            kayıtlı-program bilgisayar fikrini ortaya koyan kişi olarak
+            gösterilse de ondan önce de (örneğin Konrad Zuse’nin) benzer
+            fikirler vardı. Ayrıca, EDVAC’tan önce tamamlanan Harvard Mark I’nın
+            Harvard mimarisi, elektronik bellek yerine delikli kâğıt şerit
+            kullanarak kayıtlı-program dizaynı gerçekleştirmişti. Günümüzde ise
+            modern MİB'ler temel olarak von Neumann tasarımı olsa da, Harvard
+            mimarisinden de özellikler göze çarpmaktadır.
+          </p>
+          <br><br><br><br>
+        </div>
+      </center>
+    </section>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br />
+    <footer id="footer">
+      <a href="https://www.instagram.com/fawobi/">
+        <img
+              style="left: 1%;
+              width: 30px;
+              height:30px;
+              border-radius: 8px;
+              position: absolute;
+              bottom: 4%;"
+              src="image/instagram_icon.png"
+              alt="">
+            </a>
+            <a href="05539644740">
+              <img
+                    style="left: 4%;
+                    width: 30px;
+                    height:30px;
+                    border-radius: 8px;
+                    position: absolute;
+                    bottom: 4%;"
+                    src="image/tel_icon.png"
+                    alt="">
+                  </a>
+      <center>
+        <p>Telif haklari:<strong>Tüm haklari saklıdır</strong></p>
+      </center>
+    </footer>
+    <script>
+      window.onload = Tema();
+      window.addEventListener("load", sayfaYuklendi);
+    </script>
+  </body>
+</html>

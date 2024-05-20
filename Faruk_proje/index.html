@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bilgisayar Donanımları</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="body">
+    <a id="ust"></a>
+    <a href="#ust">
+      <img id="ok" src="image/ok.png" />
+    </a>
+
+    <header id="header">
+      <a href="index.html">
+        <img id="logo" src="image/Fawo.png" alt="Fawo" />
+      </a>
+
+      <h2 id="baslik"><i>Bilgisayar Donanımları</i></h2>
+      <div class="dropdown">
+        <img id="menu" src="image/uc_cizgi.png" />
+        <div class="dropdown-content">
+          <a href="index.html">Anasayfa</a>
+          <a href="islemci.html">İşlemci</a>
+          <a href="ram.html">Ram</a>
+          <a href="ssd.html">SSD</a>
+          <a href="harddisk.html">Harddisk</a>
+          <a href="hava_sogutucu.html">Hava Soğutucu</a>
+          <a href="Sıvı_sogutucu.html">Sıvı Soğutucu</a>
+          <a href="guckaynagi.html">Guc Kaynağı</a>
+          <a href="anakart.html">Anakart</a>
+          <a href="ekrankarti.html">Ekran Kartı</a>
+        </div>
+      </div>
+      <div
+        style="float: right; margin-top: 17px; margin-right: 20px"
+        class="container"
+      >
+        <label class="toggle_label">
+          <input
+            type="checkbox"
+            checked
+            id="mode"
+            class="toggle"
+            onclick="Tema()"
+            onchange="geceModuKontrol()"
+          />
+          <span class="slider round">
+            <i class="fa-solid fa-moon fa-lg fa-spin moon"></i>
+            <i class="fa-solid fa-sun fa-spin fa-lg sun"></i>
+          </span>
+        </label>
+      </div>
+    </header>
+    <section>
+      <center>
+        <div id="anadiv">
+          <h2><strong>Merkezî işlem birimi</strong></h2>
+          <img
+            id="indeximg"
+            style="top: 150px; left: 23%"
+            src="image/index_islemci.png"
+            alt=""
+          />
+          
+          <p style="text-align: center">
+            Türkçe kısaltması <strong>MİB</strong>, İngilizce: Central Process
+            Unit ya da kısaca <strong>CPU</strong>dijital bilgisayarların veri
+            işleyen ve yazılım komutlarını gerçekleştiren bölümüdür.
+            Çalıştırılmakta olan yazılımın içinde bulunan komutları işler.
+            Mikroişlemciler ise tek bir yonga içine yerleştirilmiş bir merkezî
+            işlem birimidir. 1970'lerin ortasından itibaren gelişen
+            mikroişlemciler ve bunların kullanımı, günümüzde MİB teriminin genel
+            olarak mikroişlemciler yerine de kullanılması sonucunu doğurmuştur.
+            <a href="islemci.html">Daha fazlası içi Tıklayınız</a>
+          </p>
+          <br /><br />
+          <h2><strong>Hava Soğutucu</strong></h2>
+          <img
+            id="indeximg"
+            style="top: 150px; left: 23% ;width:500px;"
+            src="image/fan.jpg"
+            alt=""
+          />
+          <p>
+            <strong>Soğutucu</strong>, elektronik veya mekanik bir cihaz tarafından üretilip bir
+            akışkan ortama verilen ısıyı, cihazdan uzağa dağıtan pasif bir ısı
+            değiştiricidir. Böylece cihazın sıcaklığının düzenlenmesini sağlar.
+            Bilgisayarlarda soğutucular CPU'ları, GPU'ları, bazı çipleri ve RAM
+            modüllerini soğutmak için kullanılır. Soğutucular, <strong>güç
+              transistörleri</strong>, optoelektronikler (örneğin lazer ve LED lambalar)
+            gibi kendi ısı yayma kabiliyeti, sıcaklığını düzenlemek için
+            yetersiz olan yüksek güçlü yarı iletken cihazlarla birlikte
+            kullanılır.<a href="hava_sogutucu.html">Daha fazlası içi Tıklayınız</a>
+          </p>
+          <h2><strong>RAM(Random Access Memory)</strong></h2>
+          <img
+            id="indeximg"
+            style="top: 150px; left: 23%"
+            src="image/ram.jpg"
+            alt=""
+          />
+          
+          <p>
+            <strong>Rastgele erişimli hafıza</strong> veya rastgele erişimli bellek (İng.
+            İngilizce: <strong>Random Access Memory</strong>, RAM) mikroişlemcili sistemlerde
+            kullanılan ve genellikle çalışma verilerini ve makine kodunu
+            depolamak için kullanılan herhangi bir sırada okunabilen ve
+            değiştirilebilen bir tür <strong>geçici veri deposudur</strong>. Buna karşın diğer
+            hafıza aygıtları (manyetik kasetler, diskler) saklama ortamındaki
+            verilere önceden belirlenen bir sırada ulaşabilmektedir, çünkü
+            mekanik tasarımları ancak buna izin vermektedir.<a href="ram.html">Daha fazlası içi Tıklayınız</a>
+          </p>
+          <h2><strong>GPU(Graphics Processing Unit)</strong></h2>
+          <img
+            id="indeximg"
+            style="top: 150px; left: 23%"
+            src="image/gpu.jpg"
+            alt="">
+            
+          <p>
+            <strong>Görüntü kartı</strong> <strong>ilk</strong> olarak <strong>seri üretilen Apple II</strong> Mikrobilgisayar'da
+            kullanılmıştır. <strong>IBM firması 1981</strong> yılında tek renge sahip görüntü
+            kartına sahip PC'leri piyasaya sürmüştür (MDA Monochrome Display
+            Adapter). Daha sonra Hercules firması 1982 yılında daha yetenekli
+            görüntü kartı olan Hercules Graphics Card adında ürününü piyasaya
+            sürdü. İlk renkli görüntü standartları sırası ile<a href="ekrankarti.html">Daha fazlası içi Tıklayınız</a>
+          </p>
+          <br><br>
+          <h2><strong>Anakarat(Motherboard)</strong></h2>
+          <img
+            id="indeximg"
+            style="top: 150px; left: 23%"
+            src="image/anakart_s2.jpg"
+            alt="">
+            
+          <p>
+            <strong>Anakart</strong> (İngilizce: <strong>mainboard, motherboard, baseboard,</strong> system board
+            veya planar board), modern bir bilgisayar gibi karmaşık bir
+            elektronik sistemin birincil ve en merkezî baskılı devre kartıdır.<a href="anakart.html">Daha fazlası içi Tıklayınız</a>
+          </p>
+          <br><br>
+          <h2><strong>Güç Kaynağı(Power supply)</strong></h2>
+          <img
+            id="indeximg"
+            style="top: 150px; left: 23%"
+            src="image/guc_s1.jpg"
+            alt="">
+            
+          <p>
+            <strong>Bilgisayarların günümüzde</strong> hayatımızın vazgeçilmez parçası haline
+            geldiği herkes tarafından bilinen bir gerçek. Ancak, karmaşık
+            bilgisayar sistemlerinin çalışmasını sağlayan temel unsurlar
+            genellikle bilgisayar kullanımı sırasında göz ardı edilir.<a href="guckaynagi.html">Daha fazlası içi Tıklayınız</a>
+          </p>
+          <br><br>
+          <h2><strong>Harddisk</strong></h2>
+          <img
+            id="indeximg"
+            style="top: 150px; left: 23%"
+            src="image/harddisk_s1.jpg"
+            alt="">
+            
+          <p>
+            Sabit disk ya da Hard disk kısaca HDD ya da Türkçesi ile sabit disk
+            sürücüsü veri depolanması amacı ile kullanılan manyetik kayıt
+            ortamlarıdır. Önceleri büyük boyutları ve yüksek fiyatları nedeni
+            ile sadece bilgisayar merkezlerinde kullanılan sabit diskler, cep
+            telefonları ve sayısal fotoğraf makineleri içine sığabilecek kadar
+            küçülen boyutları ile günlük hayatımıza girmişlerdir.<a href="harddisk.html">Daha fazlası içi Tıklayınız</a>
+          </p>
+          <br><br>
+          <h2><strong>Sıvı Soğutucu</strong></h2>
+          <img
+            id="indeximg"
+            style="top: 150px; left: 23%"
+            src="image/sıvı_s1.jpg"
+            alt="">
+            
+          <p>
+            <strong>Sıvı soğutması veya su soğutması</strong> , <strong>suyun yüksek termal iletkenliği
+              nedeniyle bir bilgisayarı soğutmanın en iyi yollarından biridir</strong> . Bir
+            sıvı soğutması sistemi su blokları, bir pompa, bir radyatör, borular
+            ve isteğe bağlı olarak bir rezervuardan oluşur. Pompa, sıvı
+            soğutucunun, CPU'ya bağlı olan su bloğu ile radyatör arasında
+            hareket ettirilmesini sağlar.<a href="Sıvı_sogutucu.html">Daha fazlası içi Tıklayınız</a>
+          </p>
+          <br><br>
+          <h2><strong>SSD</strong></h2>
+          <img
+            id="indeximg"
+            style="top: 150px; left: 23%"
+            src="image/ssd_s1.jpg"
+            alt="">
+            
+          <p>
+             M2 konektörü aracılığıyla sağlanan bilgisayar veri yolu arabirimleri
+            <strong>PCI Express 3.0</strong> (dört şeride kadar), <strong>Seri ATA 3.0 ve USB 3.0'dır</strong>
+            <strong>(son ikisi için tek bir mantıksal bağlantı noktası)</strong>. İstenen ana
+            makine desteği seviyesine ve cihaz tipine bağlı olarak, hangi
+            arayüzlerin destekleneceğini seçmek M2 ana bilgisayarının veya
+            modülünün üreticisine bağlıdır.<a href="ssd.html">Daha fazlası içi Tıklayınız</a>
+          </p>
+          <br><br>
+        </div>
+      </center>
+    </section>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br />
+    <footer id="footer">
+      <a href="https://www.instagram.com/fawobi/">
+        <img
+              style="left: 1%;
+              width: 30px;
+              height:30px;
+              border-radius: 8px;
+              position: absolute;
+              bottom: 4%;"
+              src="image/instagram_icon.png"
+              alt="">
+            </a>
+            <a href="05539644740">
+              <img
+                    style="left: 4%;
+                    width: 30px;
+                    height:30px;
+                    border-radius: 8px;
+                    position: absolute;
+                    bottom: 4%;"
+                    src="image/tel_icon.png"
+                    alt="">
+                  </a>
+      <center>
+        <p>Telif haklari:<strong>Tüm haklari saklıdır</strong></p>
+      </center>
+    </footer>
+    <script>
+      window.onload = Tema();
+      window.addEventListener("load", sayfaYuklendi);
+    </script>
+  </body>
+</html>

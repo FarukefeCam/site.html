@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hava sogutma</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="body">
+    <a id="ust"></a>
+    <a href="#ust">
+      <img id="ok" src="image/ok.png" />
+    </a>
+
+    <header id="header">
+      <a href="index.html">
+        <img id="logo" src="image/Fawo.png" alt="Fawo" />
+      </a>
+
+      <h2 id="baslik"><i>Hava Soğutu</i></h2>
+      <div class="dropdown">
+        <img id="menu" src="image/uc_cizgi.png" />
+        <div class="dropdown-content">
+          <a href="index.html">Anasayfa</a>
+          <a href="islemci.html">İşlemci</a>
+          <a href="ram.html">Ram</a>
+          <a href="ssd.html">SSD</a>
+          <a href="harddisk.html">Harddisk</a>
+          <a href="hava_sogutucu.html">Hava Soğutucu</a>
+          <a href="Sıvı_sogutucu.html">Sıvı Soğutucu</a>
+          <a href="guckaynagi.html">Guc Kaynağı</a>
+          <a href="anakart.html">Anakart</a>
+          <a href="ekrankarti.html">Ekran Kartı</a>
+        </div>
+      </div>
+      <div
+        style="float: right; margin-top: 17px; margin-right: 20px"
+        class="container"
+      >
+        <label class="toggle_label">
+          <input
+            type="checkbox"
+            checked
+            id="mode"
+            class="toggle"
+            onclick="Tema()"
+            onchange="geceModuKontrol()"
+          />
+          <span class="slider round">
+            <i class="fa-solid fa-moon fa-lg fa-spin moon"></i>
+            <i class="fa-solid fa-sun fa-spin fa-lg sun"></i>
+          </span>
+        </label>
+      </div>
+    </header>
+    <section>
+      <center>
+        <div id="anadiv">
+          <h2><strong>Hava Soğutucu</strong></h2>
+          <img id="img" style="top: 150px; left: 23% ;width:500px;" src="image/fan_s1.jpg" alt="" />
+          <p style="text-align: center">
+            Hava soğutması, <strong>ısıyı dağıtmanın çok basit bir yöntemidir</strong> ancak çok
+            etkili olabilir ve kolay takılır! Hava soğutması iki parçadan
+            oluşur: ısı kuyusu ve fan. Fan, ısı kuyusunun üstünde ya da yanında
+            yer alır ve bileşenleri soğutmak için havayı CPU’nuzdan uzağa üfler.
+          </p>
+          <br /><br /><br />
+          <h2><strong>Hava Soğutmanın Avantajları</strong></h2>
+          <img id="img" style="top: 150px; left: 23%;width: 500px;" src="image/fan_s2.jpg" alt="" />
+          <p style="text-align: center">
+            <strong>Maliyet – Hava soğutması, kolay çalışması nedeniyle sıvı
+              soğutmasından çok daha uygun maliyetlidir.</strong> Bütçeniz kısıtlıysa, hava
+            soğutmasını tercih etmek ve kalan bütçenizi daha fazla saklama alanı
+            ya da daha hızlı DRAM satın almak için kullanmak mantıklı olabilir.
+            Kurulum – Hava soğutması sistemlerinin kurulumu sıvı soğutmasına
+            göre daha kolaydır ve bu nedenle yeni başlayan bilgisayar
+            toplayıcıları için daha iyi bir seçimdir. Ayrıca sisteminize
+            sızabilecek su konusunda da endişelenmenize gerek kalmaz! Bakım –
+            Hava soğutması çok daha az bakım gerektirir, çünkü sisteminizi
+            kurduktan sonra birkaç ayda bir PC’nizdeki tozu temizlemeniz
+            yeterlidir.
+          </p>
+          <br /><br /><br />
+          <h2><strong>Hava Soğutmanın Dezavantajları</strong></h2>
+          <p style="text-align: left">
+            <strong>Gürültü</strong> – Hava soğutmalı bir sistemdeki fanlar genellikle sıvı
+            soğutma sistemindekinden daha gürültülüdür, bu da oyun oynarken
+            oldukça dikkat dağıtıcı olabilir. <strong>Performans</strong> – Hava soğutması, sıvı
+            soğutması kadar verimli değildir, ancak PC kurulumunuzu soğutmak
+            için hala iyi bir seçenektir. Görsel – Bir hava soğutması sisteminin
+            ısı kuyusu oldukça iridir ve bu da kurulumun estetiğini bozabilir.
+            Hava soğutmasının görünümünü değiştirme seçeneği de yoktur.
+          </p>
+          <br><br><br>
+        </div>
+      </center>
+    </section>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br />
+    <footer id="footer">
+      <a href="https://www.instagram.com/fawobi/">
+        <img
+              style="left: 1%;
+              width: 30px;
+              height:30px;
+              border-radius: 8px;
+              position: absolute;
+              bottom: 4%;"
+              src="image/instagram_icon.png"
+              alt="">
+            </a>
+            <a href="05539644740">
+              <img
+                    style="left: 4%;
+                    width: 30px;
+                    height:30px;
+                    border-radius: 8px;
+                    position: absolute;
+                    bottom: 4%;"
+                    src="image/tel_icon.png"
+                    alt="">
+                  </a>
+      <center>
+        <p>Telif haklari:<strong>Tüm haklari saklıdır</strong></p>
+      </center>
+    </footer>
+    <script>
+      window.onload = Tema();
+      window.addEventListener("load", sayfaYuklendi);
+    </script>
+  </body>
+</html>

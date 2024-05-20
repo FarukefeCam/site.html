@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anakart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="body">
+    <a id="ust"></a>
+    <a href="#ust">
+      <img id="ok" src="image/ok.png" />
+    </a>
+
+    <header id="header">
+      <a href="index.html">
+        <img id="logo" src="image/Fawo.png" alt="Fawo" />
+      </a>
+
+      <h2 id="baslik"><i>Anakart</i></h2>
+      <div class="dropdown">
+        <img id="menu" src="image/uc_cizgi.png" />
+        <div class="dropdown-content">
+          <a href="index.html">Anasayfa</a>
+          <a href="islemci.html">İşlemci</a>
+          <a href="ram.html">Ram</a>
+          <a href="ssd.html">SSD</a>
+          <a href="harddisk.html">Harddisk</a>
+          <a href="hava_sogutucu.html">Hava Soğutucu</a>
+          <a href="Sıvı_sogutucu.html">Sıvı Soğutucu</a>
+          <a href="guckaynagi.html">Guc Kaynağı</a>
+          <a href="anakart.html">Anakart</a>
+          <a href="ekrankarti.html">Ekran Kartı</a>
+        </div>
+      </div>
+      <div
+        style="float: right; margin-top: 17px; margin-right: 20px"
+        class="container"
+      >
+        <label class="toggle_label">
+          <input
+            type="checkbox"
+            checked
+            id="mode"
+            class="toggle"
+            onclick="Tema()"
+            onchange="geceModuKontrol()"
+          />
+          <span class="slider round">
+            <i class="fa-solid fa-moon fa-lg fa-spin moon"></i>
+            <i class="fa-solid fa-sun fa-spin fa-lg sun"></i>
+          </span>
+        </label>
+
+      </div>
+    </header>
+    <section>
+      <center>
+        <div id="anadiv">
+          <h2><strong>Anakart</strong></h2>
+          <img
+            id="img"
+            style="top: 150px; left: 23%"
+            src="image/anakart_s2.jpg"
+            alt=""
+          />
+          <p style="text-align: left">
+            <strong>Anakart</strong> (İngilizce: <strong>mainboard, motherboard, baseboard,</strong> system board
+            veya planar board), modern bir bilgisayar gibi karmaşık bir
+            elektronik sistemin birincil ve en merkezî baskılı devre kartıdır.
+            <strong>Apple bilgisayarlardaki muadiline logic board</strong> (lojik kart) denir ve
+            bazen mobo olarak kısaltılır. Fiziksel yapı olarak anakartlar
+            özel alaşımlı bir blok üzerine yerleştirilmiş ve üzerinde RAM
+            yuvaları genişleme kartı slotları devreler ve yongalar bulunan kare
+            şeklinde bir plakadır. Bu plaka çalışma sistemini organize eder. Bu
+            organizasyon anakart üzerindeki yonga setleri sayesinde olur.>
+          </p>
+          <br /><br />
+          <h2><strong>Anakart veri yolları</strong></h2>
+          <img
+            id="img"
+            style="top: 150px; left: 23%"
+            src="image/anakart_s1.png"
+            alt="">
+          <p style="text-align: left">
+            Kişisel bilgisayarlarda 486-PIII seri arasında <strong>veri yolları</strong>nda çok
+            büyük değişmeler olmuştur. 486’larda veri yolu olarak <strong>ISA VESA</strong>
+            kullanılmıştır. Bu veri yolu artık kullanılmamaktadır. 486’ların son
+            nesilleri Intel Pentium PCI veri yolu üzerinde çalıştılar. <strong>PCI veri
+              yolu ISA-VESA</strong> veri yolundan daha hızlıdır. Sistemin hızlı olması
+            sayesinde grafik arabirimleri kontrol kartları ve genişletme
+            karlarından çok daha performans sağlanmasına yol açmıştır. Bununla
+            yetinmeyen insanoğlu artık hızına hız katarak AGP veri slotunu
+            kullanmakta ve veri transferine hız katmıştır. PII serisinde
+            yaklaşık bir tane ISA ortalama beş tane PCI ve birtane AGP slotu
+            kullanılmıştır.[kaynak belirtilmeli] Günümüzde üretilen anakartların
+            çoğu, <strong>2005 yılı itibarıyla kişisel bilgisayar pazarının %96'sından
+              fazlasını elinde tutan IBM uyumlu diye tanımlanan bilgisayarlar
+              içindir.</strong> [kaynak belirtilmeli] Bir anakart, bir backplane gibi,
+            sistem bileşenleri arasındaki haberleşmeyi sağlar, ancak bir
+            backplane'den farklı olarak merkezi işlem birimi ve gerçek zamanlı
+            saat ve bazı çevresel arabirimler gibi diğer alt sistemleri de
+            içerir. Tipik bir masaüstü bilgisayar, anakartın bir arada tuttuğu
+            mikroişlemci, bellek ve diğer gerekli bileşenlerden oluşur. Sabit
+            disk, ekran ve ses kartları ve diğer çevresel aygıtlar ise anakarta
+            bağdaştırıcı veya kablolarla takılır, ancak modern bilgisayarlarda
+            bu çevresel aygıtların anakarta tümleşik olması giderek
+            yaygınlaşmaktadır.
+          </p>
+          <br /><br />
+          <h2><strong>Anakart Tarihçesi</strong></h2>
+          <p style="text-align: left">
+            1980'lerin sonunda ve 1990'larda, artan sayıdaki periferik (çevre
+            birimi) fonksiyonları anakarta taşımak ekonomik olmaya
+            başladı.1980'lerin sonlarında, anakartlar; klavye, fare, disket
+            sürücü, seri port ve paralel portlar gibi çevre birimlerini
+            destekleyen süper I/O çiplerini içermeye başladı. 1990'ların
+            sonlarından itibaren, birçok kişisel bilgisayar anakartı hiçbir
+            geliştirme kartına ihtiyaç duymadan bir dizi ses, video, depolama ve
+            ağ fonksiyonlarını destekledi. Sadece ekran kartı, basit veya orta
+            düzey kullanımlar için onboard olarak sunulurken, üst düzey 3D oyun
+            ve bilgisayar grafikleri için ayrı bir bileşen olarak da sunulmaya
+            devam etti.
+          </p>
+          <br><br>
+          <h2><strong>Anakart Şeması</strong></h2>
+          <img
+            id="img"
+            style="top: 150px; left: 23%"
+            src="image/anakart_s3.jpg"
+            alt="">
+            <br><br><br>
+        </div>
+      </center>
+    </section>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br />
+    <footer id="footer">
+      <a href="https://www.instagram.com/fawobi/">
+        <img
+              style="left: 1%;
+              width: 30px;
+              height:30px;
+              border-radius: 8px;
+              position: absolute;
+              bottom: 4%;"
+              src="image/instagram_icon.png"
+              alt="">
+            </a>
+            <a href="05539644740">
+              <img
+                    style="left: 4%;
+                    width: 30px;
+                    height:30px;
+                    border-radius: 8px;
+                    position: absolute;
+                    bottom: 4%;"
+                    src="image/tel_icon.png"
+                    alt="">
+                  </a>
+      <center>
+        <p>Telif haklari:<strong>Tüm haklari saklıdır</strong></p>
+      </center>
+    </footer>
+    <script>
+      window.onload = Tema();
+      window.addEventListener("load", sayfaYuklendi);
+    </script>
+  </body>
+</html>

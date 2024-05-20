@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ram</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="body">
+    <a id="ust"></a>
+    <a href="#ust">
+      <img id="ok" src="image/ok.png" />
+    </a>
+    <header id="header">
+      <a href="index.html">
+        <img id="logo" src="image/Fawo.png" alt="Fawo" />
+      </a>
+
+      <h2 id="baslik"><i>Ram</i></h2>
+      <div class="dropdown">
+        <img id="menu" src="image/uc_cizgi.png" />
+        <div class="dropdown-content">
+          <a href="index.html">Anasayfa</a>
+          <a href="islemci.html">İşlemci</a>
+          <a href="ram.html">Ram</a>
+          <a href="ssd.html">SSD</a>
+          <a href="harddisk.html">Harddisk</a>
+          <a href="hava_sogutucu.html">Hava Soğutucu</a>
+          <a href="Sıvı_sogutucu.html">Sıvı Soğutucu</a>
+          <a href="guckaynagi.html">Guc Kaynağı</a>
+          <a href="anakart.html">Anakart</a>
+          <a href="ekrankarti.html">Ekran Kartı</a>
+        </div>
+      </div>
+      <div
+        style="float: right; margin-top: 17px; margin-right: 20px"
+        class="container"
+      >
+        <label class="toggle_label">
+          <input
+            type="checkbox"
+            checked
+            id="mode"
+            class="toggle"
+            onclick="Tema()"
+            onchange="geceModuKontrol()"
+          />
+          <span class="slider round">
+            <i class="fa-solid fa-moon fa-lg fa-spin moon"></i>
+            <i class="fa-solid fa-sun fa-spin fa-lg sun"></i>
+          </span>
+        </label>
+      </div>
+    </header>
+    <section>
+      <center>
+        <div id="anadiv">
+            <h2><strong>Ram(Random Access Memory)</strong></h2>
+          <img id="img" style="top: 150px; left: 23%" src="image/ram.jpg" />
+          <p>
+            Yazılabilir RAM'in modern çeşitleri, <strong>bilgileri genellikle ya disket
+              içinde (SRAM [statik RAM] gibi) ya da bir kondansatör içinde (DRAM
+              [dinamik RAM], EPROM, EEPROM, usb gibi)depo eder.</strong> Bazı çeşitleri,
+            rastgele hataları ortaya çıkarmak ve doğrulamak için eşlik biti veya
+            hata düzeltme kodları kullanır. <strong>RAM'in salt okunur tipi olan ROM,
+              RAM yerine kalıcı-devre dışı seçilmiş transistör</strong> sağlamak için metal
+            kalıp kullanır. SIMM ve DIMM hafıza modülleri özel husustur. Disk ve
+            manyetik bantlar gibi bilgisayar depolama diğer formları, kalıcı
+            depolama olarak kullanılmıştır. Birçok yeni ürünün yerine verileri
+            korumak için flaş hafıza itimat değilken PDA ya da küçük müzik
+            çalarlar gibi kullanmak içinde. çok sağlam bilgisayarlar ve netbook
+            gibi bazı kişisel bilgisayarlar, aynı zamanda flash sürücüler ile
+            manyetik disklerin yerini almıştır. flash hafıza ile sadece NOR tipi
+            ve doğrudan kod çalıştırılmasına, gerçek rastgele erişim yeteneğine
+            sahip ve bu nedenle sık sık ROM yerine kullanılır; daha düşük
+            maliyetle NAND tipi yaygın hafıza kartları ve solid-state (katı hal)
+            sürücüler (SSD) toplu depolama için kullanılır.
+          </p>
+          <br>
+          <h2><strong>DRam</strong></h2>
+          <img id="img" style="top: 150px; left: 23%" src="image/ram_s1.jpg" />
+          <p>
+            Ekonomik nedenlerden dolayı, kişisel bilgisayarlarda, iş
+            istasyonlarında, kontrol edilmeyen oyun konsollarında <strong>(Playstation,
+              Xbox gibi)</strong> geniş hafızalar dinamik RAM'lerden oluşur. Bilgisayarın
+            diğer kısımları zula hafıza (ön hafıza) ve diğer disklerdeki veri
+            tamponları statik RAM kullanır.
+          </p>
+          <br>
+          <h2><strong>SRam</strong></h2>
+          <img id="img" style="top: 150px; left: 23%" src="image/ram_s2.jpg" />
+          <p>
+            <strong>Her hücre için altı adete varan transistör kullanılır</strong>. Bu tip
+            RAM'lerde bilgiler yüklendikten sonra sabit kalır. Sürekli enerji
+            tazelemesi gerekmemektedir. <strong>SRAM (statik RAM), DRAM</strong> 'den daha hızlı
+            ve daha güvenilirdir ama onun kadar yaygın değildir. SRAM'lerin
+            üretim maliyetlerinin DRAM'lerinkine oranla çok daha yüksektir.
+          </p>
+          <br>
+          <h2><strong>Ram Tarihçesi</strong></h2>
+          <p>
+            İlk zamanlar yaygın yazılabilir <strong>RAM, 1949-1952</strong> yılları arasında
+            geliştirildi. Manyetik çekirdek hafıza olarak birçok bilgisayarda
+            kullanıldı.Daha sonra 1960'ların sonu ve 1970'lerin başında statik
+            ve dinamik entegre devreler geliştirildi. İlk ana hafıza sistemleri,
+            bugünkü RAM gibi, vakum tüplerinden oluşturulmuştur, ama sıklıkla
+            başarısız olmuşlardır. Çekirdek hafıza, küçük ferrit elektromanyetik
+            çekirdeklere tellerle bağlanan, eşit ulaşım zamanlamasına pek sahip
+            değildi. Çekirdek terimi bazı programcılar tarafından RAM'lerin
+            bilgisayarın ana hafızası anlamında kullanılmaktadır. Tüp ve
+            çekirdek hafızanın temel konsepti günümüz RAM'lerindeki tümleşik
+            devrelerde kullanılır. Alternatif birincil depolama mekanizmaları
+            genellikle tek biçimli olmayan hafıza erişim gecikmelerini içerir.
+            Gecikme satır hafızası bitleri tutmak için cıva dolu tüplerde ses
+            dalga dürtü serisi kullanılmıştır. Tambur hafıza günümüz sabit
+            diskleri gibi sürekli yuvarlak manyetik bantlarda veriyi
+            saklamıştır.
+          </p>
+        </div>
+      </center>
+    </section>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br />
+    <footer id="footer">
+      <a href="https://www.instagram.com/fawobi/">
+        <img
+              style="left: 1%;
+              width: 30px;
+              height:30px;
+              border-radius: 8px;
+              position: absolute;
+              bottom: 4%;"
+              src="image/instagram_icon.png"
+              alt="">
+            </a>
+            <a href="05539644740">
+              <img
+                    style="left: 4%;
+                    width: 30px;
+                    height:30px;
+                    border-radius: 8px;
+                    position: absolute;
+                    bottom: 4%;"
+                    src="image/tel_icon.png"
+                    alt="">
+                  </a>
+      <center>
+        <p>Telif haklari:<strong>Tüm haklari saklıdır</strong></p>
+      </center>
+    </footer>
+    <script>
+      window.onload = Tema();
+      window.addEventListener("load", sayfaYuklendi);
+    </script>
+  </body>
+</html>

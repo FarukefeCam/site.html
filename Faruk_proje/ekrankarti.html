@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ekran Kartı</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="body">
+    <a id="ust"></a>
+    <a href="#ust">
+      <img id="ok" src="image/ok.png" />
+    </a>
+
+    <header id="header">
+      <a href="index.html">
+        <img id="logo" src="image/Fawo.png" alt="Fawo" />
+      </a>
+
+      <h2 id="baslik"><i>Ekran Kartı</i></h2>
+      <div class="dropdown">
+        <img id="menu" src="image/uc_cizgi.png" />
+        <div class="dropdown-content">
+          <a href="index.html">Anasayfa</a>
+          <a href="islemci.html">İşlemci</a>
+          <a href="ram.html">Ram</a>
+          <a href="ssd.html">SSD</a>
+          <a href="harddisk.html">Harddisk</a>
+          <a href="hava_sogutucu.html">Hava Soğutucu</a>
+          <a href="Sıvı_sogutucu.html">Sıvı Soğutucu</a>
+          <a href="guckaynagi.html">Guc Kaynağı</a>
+          <a href="anakart.html">Anakart</a>
+          <a href="ekrankarti.html">Ekran Kartı</a>
+        </div>
+      </div>
+      <div
+        style="float: right; margin-top: 17px; margin-right: 20px"
+        class="container"
+      >
+        <label class="toggle_label">
+          <input
+            type="checkbox"
+            checked
+            id="mode"
+            class="toggle"
+            onclick="Tema()"
+            onchange="geceModuKontrol()"
+          />
+          <span class="slider round">
+            <i class="fa-solid fa-moon fa-lg fa-spin moon"></i>
+            <i class="fa-solid fa-sun fa-spin fa-lg sun"></i>
+          </span>
+        </label>
+      </div>
+    </header>
+    <section>
+      <center>
+        <div id="anadiv">
+          <h2><strong>Ekran kartı</strong></h2>
+          <img id="img" style="top: 150px; left: 23%" src="image/ekran_s1.jpg" alt="" />
+          <p style="text-align: left">
+            <strong>Ekran kartı</strong>, bilgisayarın görüntü vermesini sağlayan birimidir.
+            <strong>Ekran kartları harici ISA, VLB, PCI, AGP veya PCI-Express
+              veriyollarını</strong> kullanan PC kartları olarak anakart, üzerinde chipset
+            veya CPU içerisinde yerleşik olarak bulunmaktadır. Günümüzde ekran
+            kartı üreten 3 firma vardır. <strong>AMD, NVIDIA ve Intel'dir.</strong> Yaygın olarak
+            bilinen ve kullanılan GPU serileri ise şunlardır; AMD Radeon RX,
+            NVIDIA GeForce GTX, NVIDIA GeForce RTX serisi ve Intel ARC serisi
+            GPU'lardır.
+          </p>
+          <br /><br />
+          <h2><strong>Ekran kartının gelişimi</strong></h2>
+          <p style="text-align: left">
+            <strong>Görüntü kartı</strong> ilk olarak <strong>seri üretilen Apple II Mikrobilgisayar</strong> 'da
+            kullanılmıştır. IBM firması 1981 yılında tek renge sahip görüntü
+            kartına sahip PC'leri piyasaya sürmüştür (MDA Monochrome Display
+            Adapter). Daha sonra Hercules firması 1982 yılında daha yetenekli
+            görüntü kartı olan Hercules Graphics Card adında ürününü piyasaya
+            sürdü. İlk renkli görüntü standartları sırası ile
+            <br><br>
+            <strong>1- 1981</strong> yılında CGA(Color Graphics Adapter)
+            <br>
+            <strong>2- 1984</strong> yılında EGA (Enhanced GraphicsAdapter)
+            <br>
+            <strong>3- PS/2</strong> modeller için MCGA ve VGA Video Graphics
+          </p>
+          <br><br>
+          <img id="img" style="top: 150px; left: 23%" src="image/ekran_s2.jpg" alt="" />
+          <h2><strong>Donanım arabirimleri</strong></h2>
+          <p style="text-align: center">
+            1-IBM uyumlu
+            <br>
+            2-ISA
+            <br>
+            3-VESA Local Bus
+            <br>
+            4-PCI
+            <br>
+            5-AGP
+            <br>
+            6-PCI-Express
+            <br>
+            7-Diğer bilgisayar platformları
+            <br>
+            8-nuBus Apple Macintosh
+            <br>
+            9-Zorro-Bus Amiga
+          </p>
+          <h2><strong>Harici görüntü kartları için kullanılan bağlantı türleri</strong></h2>
+          <p style="text-align: center;">
+            <strong>VGA-Out</strong>
+            <br>
+            <strong>DVI-Out</strong>
+            <br>
+            <strong>HDMI-Out</strong>
+            <br>
+            <strong>Mini HDMI-Out</strong>
+            <br>
+            <strong>Dısplay Port</strong>
+            <br>
+            <strong>TV-Out</strong>
+            <br>
+            <strong>Component-Out</strong>
+            <br>
+            <strong>TV-In</strong>
+            <br>
+            <strong>S-Video</strong>
+            <br>
+            <strong>TYPE-C Video Out</strong>
+            <br>
+            <strong>THUNDERBOLT 3</strong>
+          </p>
+          <br><br>
+          <h2><strong>Ekran kartı Şema</strong></h2>
+          <img id="img" style="top: 150px; left: 23%" src="image/ekran_s3.jpg" alt="" />
+          <br><br><br>
+        </div>
+      </center>
+    </section>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br />
+    <footer id="footer">
+      <a href="https://www.instagram.com/fawobi/">
+        <img
+              style="left: 1%;
+              width: 30px;
+              height:30px;
+              border-radius: 8px;
+              position: absolute;
+              bottom: 4%;"
+              src="image/instagram_icon.png"
+              alt="">
+            </a>
+            <a href="05539644740">
+              <img
+                    style="left: 4%;
+                    width: 30px;
+                    height:30px;
+                    border-radius: 8px;
+                    position: absolute;
+                    bottom: 4%;"
+                    src="image/tel_icon.png"
+                    alt="">
+                  </a>
+      <center>
+        <p>Telif haklari:<strong>Tüm haklari saklıdır</strong></p>
+      </center>
+    </footer>
+    <script>
+      window.onload = Tema();
+      window.addEventListener("load", sayfaYuklendi);
+    </script>
+  </body>
+</html>
